@@ -13,7 +13,10 @@ export const SkipCard: React.FC<SkipCardProps> = ({
   // * (1 + skip.vat / 100);
 
   return (
-    <Card className="w-full max-w-sm mb-1.5" style={{ margin: "0.5rem" }}>
+    <Card
+      className="w-full max-w-sm mb-1.5 hover:scale-110"
+      style={{ margin: "0.5rem" }}
+    >
       <CardBody className="overflow-visible p-0 relative pr-2">
         <Image
           alt={`${skip.size} yard skip`}

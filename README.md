@@ -1,15 +1,65 @@
-# Skip Hire Application
+# Skip Hire Application Page (REM Coding Challenge)
 
 A modern, responsive skip hire service application built with React, TypeScript, and HeroUI. This application allows users to search for their address, select appropriate skip sizes, and book skip hire services.
 
+## Preface
+
+This application is designed to be used on multiple systems, it includes different workflows for deployment and testing, including a docker file and docker compose.
+
 ## Table of Contents
 
+- [UI Transformation](#ui-transformation)
+- [My Approach](#my-approach)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Key Components](#key-components)
 - [Getting Started](#getting-started)
 - [Development Workflow](#development-workflow)
+
+## UI Transformation
+
+### Desktop Comparison
+
+| Original Site | Redesigned Site |
+|---------------|-----------------|
+| ![Original Desktop](img/original_desktop.png) | ![New Desktop](img/new_desktop.png) |
+
+**Key Improvements:**
+- Modernized visual design with consistent branding
+- Simplified navigation with clear step indicators
+- Enhanced skip visualization with detailed sizing information
+- Improved information hierarchy and visual separation between sections
+- Added contextual help and pricing transparency
+
+### Mobile Comparison
+
+| Original Site | Redesigned Site |
+|---------------|-----------------|
+| ![Original Mobile](img/original_mobile.PNG) | ![New Mobile](img/new_mobile.jpg) |
+
+**Key Improvements:**
+- Fully responsive layout optimized for mobile devices
+- Touch-friendly interface with appropriately sized tap targets
+- Streamlined mobile booking process
+- Improved readability and contrast for outdoor usage
+- Consistent experience across device sizes
+
+## My approach
+
+1. **Analysis of current site**: Conducted a thorough examination of the existing skip hire website, evaluating its information architecture, user flows, and technical implementation. Identified strengths to keep and weaknesses to address in the redesign.
+
+2. **Identification of user issues**: Performed user research and journey mapping to identify pain points in the current booking process. Key issues included unclear skip sizing information, complex address entry, and lack of mobile responsiveness.
+
+3. **React installation, library identification and installation**: Set up a modern React 18 development environment using Vite for fast builds. Carefully selected complementary libraries like React Router for navigation, HeroUI for consistent UI components, and Tailwind CSS for styling efficiency.
+
+4. **Component segmentation and design**: Implemented a feature-based architecture to organize code by domain rather than technical function. Created reusable components with clear interfaces and separation of concerns, prioritizing composability and maintainability.
+
+5. **Data integration**: Built type-safe API integration layer with TypeScript interfaces for all data models. Implemented efficient state management using React's Context API and hooks, with optimized data fetching patterns to minimize network requests.
+
+6. **Linting for code readability**: Configured ESLint with custom rules to enforce consistent coding standards across the project. Implemented Prettier for automatic code formatting to maintain readability and reduce code review friction.
+
+7. **AI query to identify missing parts and validate**: Used AI tools to review the application for potential edge cases, accessibility issues, and adherence to best practices. Incorporated feedback to refine components and ensure a polished final product.
 
 ## Features
 
